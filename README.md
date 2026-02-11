@@ -98,4 +98,15 @@ Alerts can be extended to email, Slack, or webhook-based notifications.
 
 ## 📦 Project Structure (Example)
 
-
+rtsp-camera-monitoring/
+├── exporters/
+│ └── rtsp_camera_exporter.sh
+├── prometheus/
+│ └── prometheus.yml
+├── grafana/
+│ └── dashboards/
+├── systemd/
+│ └── rtsp-exporter.service
+├── scripts/
+│ └── camera_health_check.sh
+└── README.md
